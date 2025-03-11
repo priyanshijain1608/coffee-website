@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+   /* height: 10vh; */
+   background-color:rgb(108, 50, 50);
+   display: flex;
+   justify-content: space-between;
+    position: sticky; 
+    top: 0;
+     padding: 10px;
+   /* position: fixed; */
+
+}
+.logo{
+    margin: 5px;
+    /* padding: 5px; */
+    color: white;
+    
+
+}
+#navul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    width: 315px;
+    margin: 10px;
+    color: black;
+    font-size: medium;
+    
+}
+.day{
+    color: white;
+}
+
+#navul li a:hover{
+    color:rgb(199, 67, 67);
+    transition: 1 ease;
+}
+
+
+
+
+.section{
+    height: 80vh;
+   background-color:lightskyblue;
+   /* background-image:url('imagesf/bgcoffeeimg.jpg') ; */
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('imagesf/bgcoffeeimg.jpg');
+   background-size: 100vw 100vh;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+.text{
+    text-align: center;
+     color:white; 
+     align-items: center;
+     position: relative; 
+     top: 0; 
+     top: 40%;
+}
+.button{
+   margin: 30px;
+}
+.beat{
+
+    border-radius: 8px;
+    border: 1px solid brown;
+    background-color: rgb(115, 53, 53);
+    padding: 10px 20px;
+    color: white;
+    transition: 1 ease;
+}
+.beat:hover{
+    color: rgb(177, 64, 64);
+    transition: 1 ease;
+}
+
+
+.best{
+    font-size: 1.9rem;
+}
+.risk{
+    margin: 5px;
+    font-size: 1rem;
+}
+.Home{
+    text-align: center;
+    /* display: flex; */
+}
+.rise{
+    margin: 15px;
+}
+.coffeeheaven{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    
+}
+.heaven img{
+    height:250px ;
+    width: 300px;
+}
+.cardtext{
+    font-size: 1.5rem;
+    
+}
+/* #about{
+    text-align: center;
+} */
+#beans{
+    text-align: center;
+    /* gap: 10px; ; */
+     margin-top: 45px; 
+     
+    
+}
+.content{
+    font-size: 1.2rem;
+    /* gap: 10px 10px; */
+    /* line-gap-override: 10px; */
+    padding: 50px;
+}
+.our{
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+    
+    
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.galle{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   /* gap: 40px; */
+   
+}
+.fooditems{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.item{ 
+    border: 1px solid brown;
+    
+}
+.ourmenu{
+    border: 1px solid brown;
+}
+.heaven{
+    border: 1px solid brown;
+}
+.contactus{
+    text-align: center;
+    /* gap: 50px; */
+    margin: 30px;
+}
+.us{
+    margin: 30px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 10vh;
+    background-color: rgb(115, 53, 53);
+    padding: 10px;
+    text-align: center;
+
+}
